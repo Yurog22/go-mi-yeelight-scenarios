@@ -1,0 +1,20 @@
+---
+- hostAddress: 192.168.1.51
+  actions:
+    - timer: '00:00'
+      colorTemperature: 1700
+      brightness: 100
+    - timer: '8:00'
+      colorTemperature: 4900
+      brightness: 100
+    - timer: '21:00'
+      colorTemperature: 3300
+      brightness: 100
+- hostAddress: 192.168.1.52
+  actions:
+    - timer: '10:17'
+      colorTemperature: 1700
+      brightness: 100
+    - timer: '10:20'
+      colorTemperature: 6500
+      brightness: 100
